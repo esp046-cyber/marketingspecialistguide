@@ -1,0 +1,2048 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marketing Specialist Guide 2026</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 1%;
+            line-height: 1.6;
+            color: #333;
+        }
+        
+        .container {
+            max-width: 100%;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            overflow: hidden;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #2d3748 0%, #1a202c 100%);
+            color: white;
+            padding: 20px 1%;
+            text-align: center;
+        }
+        
+        h1 {
+            font-size: 1.4em;
+            margin-bottom: 5px;
+            font-weight: 600;
+        }
+        
+        .subtitle {
+            font-size: 0.85em;
+            opacity: 0.9;
+            margin-top: 8px;
+        }
+        
+        .company-info {
+            background: #f7fafc;
+            padding: 15px 1%;
+            border-left: 4px solid #667eea;
+            margin: 1% 1% 15px 1%;
+            border-radius: 5px;
+        }
+        
+        .company-info p {
+            font-size: 0.9em;
+            color: #4a5568;
+        }
+        
+        .content {
+            padding: 1%;
+        }
+        
+        .section {
+            margin-bottom: 25px;
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 15px 1%;
+            border-left: 5px solid #667eea;
+        }
+        
+        h2 {
+            font-size: 1.1em;
+            color: #2d3748;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .icon {
+            font-size: 1.2em;
+        }
+        
+        .step {
+            background: white;
+            padding: 12px;
+            margin-bottom: 10px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            transition: transform 0.2s;
+        }
+        
+        .step:hover {
+            transform: translateX(5px);
+            box-shadow: 0 3px 8px rgba(102,126,234,0.2);
+        }
+        
+        .step-number {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 24px;
+            font-size: 0.85em;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        
+        .step-title {
+            font-weight: 600;
+            color: #2d3748;
+            margin-bottom: 5px;
+            font-size: 0.95em;
+        }
+        
+        .step-desc {
+            color: #4a5568;
+            font-size: 0.88em;
+            margin-left: 34px;
+        }
+        
+        .skill-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 10px;
+            margin-top: 10px;
+        }
+        
+        .skill-item {
+            background: white;
+            padding: 10px;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            transition: all 0.3s;
+        }
+        
+        .skill-item:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 4px 12px rgba(102,126,234,0.3);
+        }
+        
+        .skill-emoji {
+            font-size: 1.8em;
+            margin-bottom: 5px;
+        }
+        
+        .skill-name {
+            font-size: 0.85em;
+            color: #2d3748;
+            font-weight: 600;
+        }
+        
+        .tab-container {
+            display: flex;
+            gap: 5px;
+            margin-bottom: 15px;
+            overflow-x: auto;
+            padding: 0 1%;
+        }
+        
+        .tab {
+            padding: 10px 15px;
+            background: #e2e8f0;
+            border: none;
+            border-radius: 8px 8px 0 0;
+            cursor: pointer;
+            font-size: 0.88em;
+            font-weight: 600;
+            color: #4a5568;
+            transition: all 0.3s;
+            white-space: nowrap;
+        }
+        
+        .tab.active {
+            background: #667eea;
+            color: white;
+        }
+        
+        .tab-content {
+            display: none;
+        }
+        
+        .tab-content.active {
+            display: block;
+        }
+        
+        .highlight {
+            background: #fef3c7;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-weight: 600;
+        }
+        
+        footer {
+            background: #2d3748;
+            color: white;
+            text-align: center;
+            padding: 15px 1%;
+            font-size: 0.85em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📊 2026 Marketing Specialist Guide</h1>
+            <p class="subtitle">B2B Marketing Excellence for Australian Enterprise</p>
+        </header>
+        
+        <div class="company-info">
+            <p><strong>About:</strong> Australian B2B solutions company working with enterprise and mid-sized businesses to deliver growth through strategic marketing, branding, and digital systems.</p>
+        </div>
+        
+        <div class="tab-container">
+            <button class="tab active" onclick="openTab(event, 'instructions')">📋 Instructions</button>
+            <button class="tab" onclick="openTab(event, 'stepbystep')">🎯 Step-by-Step</button>
+            <button class="tab" onclick="openTab(event, 'skills')">💡 Skills</button>
+            <button class="tab" onclick="openTab(event, 'beginners')">🚀 Beginners</button>
+            <button class="tab" onclick="openTab(event, 'linkedin')">💼 LinkedIn</button>
+            <button class="tab" onclick="openTab(event, 'brandkit')">🎨 Brand Kit</button>
+            <button class="tab" onclick="openTab(event, 'presentations')">📊 Presentations</button>
+            <button class="tab" onclick="openTab(event, 'seo')">🔍 SEO</button>
+            <button class="tab" onclick="openTab(event, 'excel')">📈 Excel</button>
+            <button class="tab" onclick="openTab(event, 'brandvoice')">🗣️ Brand Voice</button>
+            <button class="tab" onclick="openTab(event, 'email')">📧 Email</button>
+            <button class="tab" onclick="openTab(event, 'socialmedia')">📱 Social Media</button>
+            <button class="tab" onclick="openTab(event, 'copywriting')">✏️ Copywriting</button>
+            <button class="tab" onclick="openTab(event, 'design')">🎨 Design</button>
+            <button class="tab" onclick="openTab(event, 'calendar')">📅 Calendar</button>
+            <button class="tab" onclick="openTab(event, 'strategy')">🎯 Strategy</button>
+            <button class="tab" onclick="openTab(event, 'client')">💬 Client Comm</button>
+        </div>
+        
+        <div class="content">
+            <!-- Instructions Tab -->
+            <div id="instructions" class="tab-content active">
+                <div class="section">
+                    <h2><span class="icon">📋</span> Core Responsibilities</h2>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">1</span> Create LinkedIn Content, Videos & B2B Campaigns</div>
+                        <div class="step-desc">Develop engaging professional content that resonates with enterprise decision-makers and drives B2B engagement.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">2</span> Manage Brand Kits, Canva Templates & Marketing Assets</div>
+                        <div class="step-desc">Maintain organized brand resources ensuring consistency across all marketing materials and touchpoints.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">3</span> Design Presentations, Pitch Decks & Marketing Collateral</div>
+                        <div class="step-desc">Create compelling visual materials that communicate value propositions effectively to enterprise clients.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">4</span> Support SEO-Optimised WordPress Content</div>
+                        <div class="step-desc">Write and optimize web content for search engines while maintaining brand voice and user experience.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">5</span> Track Campaign Performance Using Excel</div>
+                        <div class="step-desc">Monitor, analyze, and report on marketing metrics to optimize campaign effectiveness and ROI.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">6</span> Maintain a Consistent Brand Voice</div>
+                        <div class="step-desc">Ensure all communications align with brand guidelines and resonate with B2B audiences authentically.</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Step-by-Step Tab -->
+            <div id="stepbystep" class="tab-content">
+                <div class="section">
+                    <h2><span class="icon">🎯</span> Daily Workflow</h2>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">1</span> Morning: Content Planning (30 mins)</div>
+                        <div class="step-desc">Review content calendar, LinkedIn trends, and plan posts for the week. Identify trending B2B topics.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">2</span> Mid-Morning: Content Creation (2 hours)</div>
+                        <div class="step-desc">Create LinkedIn posts, design graphics in Canva, record short-form videos. Focus on thought leadership.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">3</span> Afternoon: Design & Development (2 hours)</div>
+                        <div class="step-desc">Work on presentations, pitch decks, or WordPress content. Optimize for SEO and brand consistency.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">4</span> Late Afternoon: Analytics & Reporting (1 hour)</div>
+                        <div class="step-desc">Update Excel dashboards, track campaign performance, analyze engagement metrics, prepare insights.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">5</span> End of Day: Brand Management (30 mins)</div>
+                        <div class="step-desc">Update brand kits, organize assets, ensure all materials are accessible and version-controlled.</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Skills Tab -->
+            <div id="skills" class="tab-content">
+                <div class="section">
+                    <h2><span class="icon">💡</span> Essential Skills Matrix</h2>
+                    
+                    <div class="skill-grid">
+                        <div class="skill-item">
+                            <div class="skill-emoji">✍️</div>
+                            <div class="skill-name">Copywriting</div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-emoji">🎨</div>
+                            <div class="skill-name">Canva Design</div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-emoji">📱</div>
+                            <div class="skill-name">Social Media</div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-emoji">🎥</div>
+                            <div class="skill-name">Video Editing</div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-emoji">🔍</div>
+                            <div class="skill-name">SEO</div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-emoji">📊</div>
+                            <div class="skill-name">Excel Analytics</div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-emoji">🌐</div>
+                            <div class="skill-name">WordPress</div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-emoji">🎯</div>
+                            <div class="skill-name">B2B Strategy</div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-emoji">💼</div>
+                            <div class="skill-name">LinkedIn</div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-emoji">🏷️</div>
+                            <div class="skill-name">Brand Management</div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-emoji">📈</div>
+                            <div class="skill-name">Analytics</div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-emoji">💬</div>
+                            <div class="skill-name">Communication</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Beginners Tab -->
+            <div id="beginners" class="tab-content">
+                <div class="section">
+                    <h2><span class="icon">🚀</span> Getting Started Guide</h2>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">1</span> Week 1: Learn the Brand</div>
+                        <div class="step-desc">Study brand guidelines, voice, values. Review past campaigns. Understand target audience: enterprise & mid-sized businesses.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">2</span> Week 2: Master Your Tools</div>
+                        <div class="step-desc">Get proficient in <span class="highlight">Canva Pro</span>, <span class="highlight">WordPress</span>, <span class="highlight">Excel</span>, and <span class="highlight">LinkedIn</span>. Set up templates and workflows.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">3</span> Week 3: Start Creating</div>
+                        <div class="step-desc">Begin with simple LinkedIn posts. Get feedback. Practice writing B2B copy that speaks to decision-makers.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">4</span> Week 4: Build Your Portfolio</div>
+                        <div class="step-desc">Create sample pitch decks, design marketing collateral, write blog posts. Document your best work.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">5</span> Month 2: Campaign Management</div>
+                        <div class="step-desc">Take ownership of small campaigns. Track performance. Learn what resonates with B2B audiences.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">6</span> Month 3+: Optimize & Scale</div>
+                        <div class="step-desc">Refine your process. Improve metrics. Develop expertise in video content and advanced analytics.</div>
+                    </div>
+                </div>
+                
+                <div class="section">
+                    <h2><span class="icon">📚</span> Learning Resources</h2>
+                    
+                    <div class="step">
+                        <div class="step-title">LinkedIn Learning: B2B Marketing Courses</div>
+                        <div class="step-desc">Focus on enterprise marketing, content strategy, and social selling.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title">Canva Design School</div>
+                        <div class="step-desc">Master professional design principles and branded template creation.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title">Google Analytics Academy</div>
+                        <div class="step-desc">Learn data analysis and campaign tracking fundamentals.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title">HubSpot Academy: Content Marketing</div>
+                        <div class="step-desc">Free certifications in content strategy, SEO, and B2B marketing.</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- LinkedIn Content Guide -->
+            <div id="linkedin" class="tab-content">
+                <div class="section">
+                    <h2><span class="icon">💼</span> LinkedIn Content, Videos & B2B Campaigns Guide</h2>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">1</span> Research Your Audience</div>
+                        <div class="step-desc">Identify decision-makers: C-suite, managers, procurement. Understand pain points, industry trends, and business challenges.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">2</span> Content Ideation</div>
+                        <div class="step-desc">Brainstorm topics: industry insights, case studies, tips, trends. Use LinkedIn trending topics and competitor analysis.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">3</span> Create Engaging Copy</div>
+                        <div class="step-desc">Write hook (first line), provide value, include storytelling. Keep it professional but conversational. Use 3-5 hashtags.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">4</span> Design Visual Assets</div>
+                        <div class="step-desc">Create carousel posts, infographics, or quote graphics in Canva. Maintain brand colors and fonts. Size: 1200x1200px.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">5</span> Produce Video Content</div>
+                        <div class="step-desc">Record short videos (30-90 sec). Add captions. Topics: quick tips, behind-the-scenes, client testimonials. Export vertical format.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">6</span> Schedule Posts</div>
+                        <div class="step-desc">Best times: Tue-Thu, 8-10am or 12-1pm. Use LinkedIn scheduling or Buffer. Post 3-5 times weekly for consistency.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">7</span> Engage With Audience</div>
+                        <div class="step-desc">Respond to comments within 2 hours. Like and comment on relevant posts. Build relationships, don't just broadcast.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">8</span> Run B2B Campaigns</div>
+                        <div class="step-desc">Set up LinkedIn Ads: Sponsored Content, Message Ads. Target by job title, company size, industry. Budget: test $10-20/day.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">9</span> Track Performance</div>
+                        <div class="step-desc">Monitor: impressions, engagement rate, click-through rate, leads. Adjust strategy based on what performs best.</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Brand Kit Guide -->
+            <div id="brandkit" class="tab-content">
+                <div class="section">
+                    <h2><span class="icon">🎨</span> Manage Brand Kits, Canva Templates & Assets Guide</h2>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">1</span> Set Up Canva Brand Kit</div>
+                        <div class="step-desc">Upload logos (PNG with transparency), define brand colors (hex codes), add brand fonts. Go to Brand Hub in Canva Pro.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">2</span> Create Master Templates</div>
+                        <div class="step-desc">Design templates for: social posts, presentations, one-pagers, email headers, LinkedIn banners. Save as Brand Templates.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">3</span> Organize Asset Library</div>
+                        <div class="step-desc">Create folders: Logos, Icons, Photos, Graphics, Templates. Use clear naming: "Logo_Primary_Color.png", "Social_Template_LinkedIn.canva".</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">4</span> Version Control</div>
+                        <div class="step-desc">Label versions: v1.0, v1.1, v2.0. Archive old versions. Keep a changelog document noting updates and reasons.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">5</span> Share With Team</div>
+                        <div class="step-desc">Invite team members to Brand Kit. Set permissions (view/edit). Create a shared Google Drive or Dropbox for non-Canva assets.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">6</span> Regular Audits</div>
+                        <div class="step-desc">Monthly review: remove outdated assets, add new templates, ensure brand consistency. Update guidelines document quarterly.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">7</span> Document Guidelines</div>
+                        <div class="step-desc">Create brand style guide PDF: logo usage, color codes, font hierarchy, tone of voice, do's and don'ts with examples.</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Presentations Guide -->
+            <div id="presentations" class="tab-content">
+                <div class="section">
+                    <h2><span class="icon">📊</span> Design Presentations, Pitch Decks & Collateral Guide</h2>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">1</span> Understand the Objective</div>
+                        <div class="step-desc">Clarify: What's the goal? Who's the audience? What action do we want? Sales pitch vs. internal presentation needs different approaches.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">2</span> Create Story Structure</div>
+                        <div class="step-desc">Outline: Problem → Solution → Benefits → Proof → Call to Action. Pitch decks: 10-15 slides max. Keep it concise.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">3</span> Design Clean Layouts</div>
+                        <div class="step-desc">Use brand templates. Rule of thirds. White space is good. One key message per slide. Avoid cluttered slides.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">4</span> Use Compelling Visuals</div>
+                        <div class="step-desc">High-quality images, relevant icons, data visualizations. Avoid stock photos that look generic. Use charts for data.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">5</span> Write Persuasive Copy</div>
+                        <div class="step-desc">Headlines should be clear and benefit-focused. Bullet points (3-5 max). Use active voice. Highlight ROI and results.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">6</span> Add Data & Proof</div>
+                        <div class="step-desc">Include case studies, testimonials, statistics, before/after comparisons. Make numbers visual with charts and infographics.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">7</span> Create Supporting Collateral</div>
+                        <div class="step-desc">One-pagers, brochures, leave-behinds. Summarize key points. Include contact info and clear CTA.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">8</span> Review & Edit</div>
+                        <div class="step-desc">Check spelling, grammar, brand consistency. Get feedback from colleagues. Test presentation flow. Time it.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">9</span> Export Multiple Formats</div>
+                        <div class="step-desc">Save as: PowerPoint (.pptx), PDF (for sharing), Google Slides (for collaboration). Name clearly with version and date.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">10</span> Prepare for Delivery</div>
+                        <div class="step-desc">Create presenter notes. Practice transitions. Have backup (USB, email to self). Check equipment beforehand.</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- SEO WordPress Guide -->
+            <div id="seo" class="tab-content">
+                <div class="section">
+                    <h2><span class="icon">🔍</span> Support SEO-Optimised WordPress Content Guide</h2>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">1</span> Keyword Research</div>
+                        <div class="step-desc">Use tools: Google Keyword Planner, Ubersuggest, SEMrush. Find keywords with good volume, low competition. Focus on long-tail keywords.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">2</span> Plan Content Structure</div>
+                        <div class="step-desc">Create outline with H1 (main title), H2s (sections), H3s (subsections). Include keyword in H1 and at least 2 H2s naturally.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">3</span> Write Quality Content</div>
+                        <div class="step-desc">Minimum 800-1500 words for blog posts. Answer user intent. Be informative and valuable. Write for humans first, search engines second.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">4</span> Optimize On-Page SEO</div>
+                        <div class="step-desc">Title tag (60 chars), meta description (155 chars), URL slug (short, keyword-rich). Use Yoast SEO or Rank Math plugin.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">5</span> Add Images & Alt Text</div>
+                        <div class="step-desc">Compress images (TinyPNG). Use descriptive file names. Write alt text with keywords. Add captions where relevant.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">6</span> Internal & External Linking</div>
+                        <div class="step-desc">Link to 2-4 relevant internal pages. Add 1-2 authoritative external sources. Use descriptive anchor text, not "click here".</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">7</span> Format for Readability</div>
+                        <div class="step-desc">Short paragraphs (3-4 lines). Bullet points and numbered lists. Bold important points. Use white space. Mobile-friendly design.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">8</span> Add Schema Markup</div>
+                        <div class="step-desc">Use schema for articles, FAQs, reviews. Install Schema Pro or use Yoast's built-in schema. Helps with rich snippets.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">9</span> SEO Check Before Publishing</div>
+                        <div class="step-desc">Run Yoast/Rank Math analysis. Check readability score (aim for 60+). Verify keyword density (1-2%). Preview on mobile.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">10</span> Post-Publish Actions</div>
+                        <div class="step-desc">Submit to Google Search Console. Share on social media. Monitor rankings in Google Analytics. Update content quarterly.</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Excel Analytics Guide -->
+            <div id="excel" class="tab-content">
+                <div class="section">
+                    <h2><span class="icon">📈</span> Track Campaign Performance Using Excel Guide</h2>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">1</span> Set Up Dashboard Template</div>
+                        <div class="step-desc">Create tabs: Overview, LinkedIn, Email, Ads, SEO, Monthly Report. Use consistent formatting and color coding.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">2</span> Define Key Metrics (KPIs)</div>
+                        <div class="step-desc">Track: Impressions, Clicks, CTR, Conversions, Cost per Lead, ROI, Engagement Rate. Tailor to each campaign type.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">3</span> Import Data Sources</div>
+                        <div class="step-desc">Export from LinkedIn Analytics, Google Analytics, email platform. Use CSV import. Update weekly or bi-weekly.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">4</span> Create Formulas</div>
+                        <div class="step-desc">CTR = (Clicks/Impressions)*100, ROI = ((Revenue-Cost)/Cost)*100, Conversion Rate = (Conversions/Clicks)*100. Use cell references.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">5</span> Build Visual Charts</div>
+                        <div class="step-desc">Line charts for trends, bar charts for comparisons, pie charts for distribution. Keep it simple and clear. Add titles and labels.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">6</span> Use Pivot Tables</div>
+                        <div class="step-desc">Summarize large data sets. Group by campaign, date, channel. Quick analysis of performance by different dimensions.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">7</span> Conditional Formatting</div>
+                        <div class="step-desc">Highlight top performers (green), underperformers (red). Use data bars for quick visual comparison. Set thresholds.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">8</span> Create Monthly Reports</div>
+                        <div class="step-desc">Summarize: Total reach, best performing content, key insights, recommendations. Export as PDF for stakeholders.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">9</span> Set Up Alerts</div>
+                        <div class="step-desc">Use conditional formatting or formulas to flag: campaigns below target, budget overspend, unusual drops in performance.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">10</span> Regular Updates & Backups</div>
+                        <div class="step-desc">Update data weekly. Save versions with dates. Back up to cloud (OneDrive, Google Drive). Share with team via link.</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Brand Voice Guide -->
+            <div id="brandvoice" class="tab-content">
+                <div class="section">
+                    <h2><span class="icon">🗣️</span> Maintain a Consistent Brand Voice Guide</h2>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">1</span> Define Brand Voice Attributes</div>
+                        <div class="step-desc">Identify 3-5 core attributes. Example: Professional, Approachable, Innovative, Trustworthy. Document what each means for your brand.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">2</span> Create Voice Chart</div>
+                        <div class="step-desc">Build table: "We are / We are not". Example: "We are professional / We are not stuffy". Include examples for each attribute.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">3</span> Develop Tone Guidelines</div>
+                        <div class="step-desc">Tone varies by context. LinkedIn = professional. Email = friendly. Crisis = empathetic. Document tone for each channel/situation.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">4</span> Create Writing Do's & Don'ts</div>
+                        <div class="step-desc">List specific words/phrases to use and avoid. Preferred terminology. Grammar rules. Active vs passive voice preference.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">5</span> Build Example Library</div>
+                        <div class="step-desc">Save best examples: social posts, emails, blog intros, responses. Label "Good Example" with explanation why it works.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">6</span> Use Voice Checklist</div>
+                        <div class="step-desc">Before publishing, check: Does this sound like us? Right tone for channel? Consistent with past content? Aligns with values?</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">7</span> Train Your Team</div>
+                        <div class="step-desc">Share brand voice guide with all content creators. Run workshop. Create quick reference sheet. Regular reviews of content.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">8</span> Audit Regularly</div>
+                        <div class="step-desc">Monthly review: check recent content for consistency. Update guidelines as brand evolves. Get feedback from customers on brand perception.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">9</span> Handle Edge Cases</div>
+                        <div class="step-desc">Document how to handle: complaints, sensitive topics, industry news, humor. When in doubt, err on professional side for B2B.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">10</span> Measure Brand Consistency</div>
+                        <div class="step-desc">Track: audience feedback, engagement rates, brand sentiment. Survey customers on how they perceive your brand voice.</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Email Marketing Guide -->
+            <div id="email" class="tab-content">
+                <div class="section">
+                    <h2><span class="icon">📧</span> Email Marketing Guide</h2>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">1</span> Choose Email Platform</div>
+                        <div class="step-desc">Select platform: Mailchimp, HubSpot, ActiveCampaign, SendGrid. For B2B: consider automation features, CRM integration, deliverability rates.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">2</span> Build Your Email List</div>
+                        <div class="step-desc">Create opt-in forms on website, LinkedIn lead gen forms, gated content (ebooks, whitepapers). NEVER buy lists. Focus on quality over quantity.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">3</span> Segment Your Audience</div>
+                        <div class="step-desc">Group by: industry, company size, job role, engagement level, buyer journey stage. Personalized emails get 2-5x higher open rates.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">4</span> Plan Email Campaign Types</div>
+                        <div class="step-desc">Newsletter (weekly/monthly), promotional campaigns, drip sequences, welcome series, re-engagement campaigns, event invitations.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">5</span> Write Compelling Subject Lines</div>
+                        <div class="step-desc">Keep under 50 characters. Be specific and benefit-driven. Use personalization: "[Name], here's your growth strategy". Avoid spam words: FREE, ACT NOW.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">6</span> Design Email Template</div>
+                        <div class="step-desc">Mobile-first design (60% open on mobile). Single column layout. Use brand colors. Clear hierarchy. Include logo and social links in footer.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">7</span> Write Engaging Copy</div>
+                        <div class="step-desc">Start with hook addressing pain point. Keep paragraphs short (2-3 lines). Use bullet points. One clear CTA button. Personalize with merge tags.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">8</span> Create Strong Call-to-Action</div>
+                        <div class="step-desc">Use action verbs: "Download Now", "Get Your Free Audit", "Schedule Demo". Make button stand out. Repeat CTA if email is long.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">9</span> A/B Test Everything</div>
+                        <div class="step-desc">Test subject lines (most important), send times, CTA buttons, images vs no images. Test one element at a time. Need 1000+ subscribers for valid results.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">10</span> Optimize Send Times</div>
+                        <div class="step-desc">B2B best times: Tuesday-Thursday, 10am-11am or 2pm-3pm. Avoid Mondays (inbox overload) and Fridays (weekend mode). Test for your audience.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">11</span> Set Up Automation Workflows</div>
+                        <div class="step-desc">Welcome series (3-5 emails), abandoned cart, post-purchase, lead nurturing drip. Trigger based on behavior: downloads, clicks, page visits.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">12</span> Ensure Deliverability</div>
+                        <div class="step-desc">Authenticate domain (SPF, DKIM, DMARC). Warm up new IP slowly. Clean list regularly (remove bounces). Avoid spam triggers. Monitor sender reputation.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">13</span> Make It Mobile-Responsive</div>
+                        <div class="step-desc">Use responsive templates. Large touch-friendly buttons (min 44x44px). Readable font size (14-16px). Test on multiple devices before sending.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">14</span> Include Compliance Elements</div>
+                        <div class="step-desc">Add unsubscribe link (required by law). Include physical address. Privacy policy link. GDPR compliant for EU contacts. CAN-SPAM compliant.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">15</span> Test Before Sending</div>
+                        <div class="step-desc">Send test email to yourself. Check: links work, images load, personalization correct, displays on mobile, no typos. Use litmus or Email on Acid.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">16</span> Track Key Metrics</div>
+                        <div class="step-desc">Monitor: Open rate (15-25% good for B2B), Click-through rate (2-5%), Conversion rate, Bounce rate (<2%), Unsubscribe rate (<0.5%).</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">17</span> Analyze & Optimize</div>
+                        <div class="step-desc">Review performance weekly. Identify top performing emails. What subject lines worked? What CTAs got clicks? Replicate success patterns.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">18</span> Re-Engage Inactive Subscribers</div>
+                        <div class="step-desc">Segment non-openers (90+ days). Send win-back campaign: "We miss you" email with special offer. If no response, remove from active list.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">19</span> Maintain Email Hygiene</div>
+                        <div class="step-desc">Clean list quarterly. Remove hard bounces immediately. Verify email addresses. Use double opt-in for new subscribers. Keep engagement high.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">20</span> Document & Report</div>
+                        <div class="step-desc">Create monthly email report: sends, opens, clicks, conversions, revenue generated. Share insights with team. Update strategy based on data.</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Social Media Management Guide -->
+            <div id="socialmedia" class="tab-content">
+                <div class="section">
+                    <h2><span class="icon">📱</span> Social Media Management Guide</h2>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">1</span> Choose Right Platforms for B2B</div>
+                        <div class="step-desc">Priority: LinkedIn (must), Twitter/X (industry news), YouTube (demos/tutorials). Secondary: Instagram (company culture), Facebook (community building).</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">2</span> Set Up Professional Profiles</div>
+                        <div class="step-desc">Complete all fields. Use high-res logo and cover images. Write keyword-rich bio. Add website link. Verify accounts. Consistent username across platforms.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">3</span> Define Content Pillars</div>
+                        <div class="step-desc">Choose 4-5 themes: Industry insights, Product updates, Customer success, Company culture, Educational content. Balance promotional (20%) vs value-add (80%).</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">4</span> Create Content Calendar</div>
+                        <div class="step-desc">Plan 2-4 weeks ahead. Use Google Sheets or Notion. Include: date, platform, content type, caption draft, visual needed, hashtags, links.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">5</span> Develop Posting Schedule</div>
+                        <div class="step-desc">LinkedIn: 3-5x/week. Twitter: 1-3x/day. Instagram: 3-4x/week. YouTube: 1-2x/month. Test different times. Consistency > frequency.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">6</span> Create Engaging Visuals</div>
+                        <div class="step-desc">Design in Canva. Sizes: LinkedIn (1200x627), Instagram (1080x1080), Twitter (1200x675). Brand consistent. Use templates for efficiency.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">7</span> Write Platform-Specific Copy</div>
+                        <div class="step-desc">LinkedIn: Professional, 150-300 words. Twitter: Concise, 100-280 chars. Instagram: Story-driven, 125-150 words + emojis. Match platform tone.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">8</span> Research & Use Hashtags</div>
+                        <div class="step-desc">LinkedIn: 3-5 relevant hashtags. Instagram: 10-15 mix of popular and niche. Twitter: 1-2 trending + branded. Research what competitors use.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">9</span> Use Scheduling Tools</div>
+                        <div class="step-desc">Tools: Buffer, Hootsuite, Later, Sprout Social. Schedule posts in batches. Save time. Maintain consistency. Set up queue for evergreen content.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">10</span> Engage With Your Audience</div>
+                        <div class="step-desc">Respond to comments within 1-2 hours. Like and reply to mentions. Ask questions to spark conversation. Be human and authentic in responses.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">11</span> Monitor Industry Conversations</div>
+                        <div class="step-desc">Follow industry leaders, competitors, clients. Join relevant LinkedIn groups. Participate in Twitter chats. Share valuable insights, not just promote.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">12</span> Create Video Content</div>
+                        <div class="step-desc">Short-form: Reels, TikTok, YouTube Shorts (15-60 sec). Long-form: YouTube tutorials, webinars. Add captions (80% watch muted). Hook in first 3 seconds.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">13</span> Leverage User-Generated Content</div>
+                        <div class="step-desc">Repost client testimonials, case studies, reviews (with permission). Tag customers. Create branded hashtag. Builds trust and community.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">14</span> Run Social Media Ads</div>
+                        <div class="step-desc">LinkedIn Ads for B2B lead gen. Retargeting on Facebook/Instagram. Start small: $5-10/day. Test audiences. Track conversions not just clicks.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">15</span> Monitor Social Listening</div>
+                        <div class="step-desc">Track brand mentions, competitor activity, industry keywords. Use tools: Mention, Brand24, Hootsuite. Identify opportunities and manage reputation.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">16</span> Handle Negative Comments</div>
+                        <div class="step-desc">Respond quickly and professionally. Acknowledge issue. Take conversation to DM if needed. Never delete unless spam/abuse. Show you care.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">17</span> Analyze Performance Metrics</div>
+                        <div class="step-desc">Track: Reach, Engagement rate, Click-through rate, Follower growth, Best performing content. Use native analytics + Google Analytics.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">18</span> A/B Test Content Types</div>
+                        <div class="step-desc">Test: Carousel vs single image, video vs static, long vs short captions, different posting times. Double down on what works for your audience.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">19</span> Collaborate With Influencers</div>
+                        <div class="step-desc">For B2B: Find industry thought leaders. Guest posts, co-webinars, interviews. Micro-influencers (10k-100k) often better ROI than celebrities.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">20</span> Stay Updated on Trends</div>
+                        <div class="step-desc">Follow social media news sites. Test new features early (algorithm boost). Adapt to platform changes. What worked in 2025 may not work in 2026.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">21</span> Create Crisis Management Plan</div>
+                        <div class="step-desc">Document response protocol for negative situations. Approval chain for sensitive topics. Pre-approved responses for common issues. Pause scheduled posts if needed.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">22</span> Repurpose Content Across Platforms</div>
+                        <div class="step-desc">Blog post → LinkedIn article + Twitter thread + Instagram carousel. Webinar → YouTube + clips for Reels. Work smarter, not harder.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">23</span> Build Community, Not Just Followers</div>
+                        <div class="step-desc">Start conversations. Create polls and Q&As. Host LinkedIn Live sessions. Recognize loyal followers. Foster genuine connections.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">24</span> Report Monthly Performance</div>
+                        <div class="step-desc">Create dashboard: Total reach, engagement, top posts, follower growth, traffic to website, leads generated. Share insights and recommendations.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">25</span> Continuously Optimize Strategy</div>
+                        <div class="step-desc">Review quarterly. What content resonates? Which platforms drive results? Adjust posting frequency, content mix, and tactics based on data.</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Copywriting Guide -->
+            <div id="copywriting" class="tab-content">
+                <div class="section">
+                    <h2><span class="icon">✏️</span> Copywriting & Content Writing Guide</h2>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">1</span> Understand Your Target Audience</div>
+                        <div class="step-desc">Create buyer personas: demographics, pain points, goals, objections. Know their language. B2B decision-makers want ROI, efficiency, and trust.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">2</span> Research Before Writing</div>
+                        <div class="step-desc">Study competitors, customer reviews, industry reports. Identify gaps. Interview customers. Use their exact words and phrases in your copy.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">3</span> Craft Magnetic Headlines</div>
+                        <div class="step-desc">Formula: Number + Adjective + Keyword + Promise. "7 Proven Strategies to Double B2B Leads". Use power words: proven, essential, ultimate, complete.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">4</span> Write Compelling Hooks</div>
+                        <div class="step-desc">First sentence must grab attention. Start with: question, bold statement, statistic, story, pain point. Hook determines if they keep reading.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">5</span> Use AIDA Framework</div>
+                        <div class="step-desc">Attention (hook), Interest (benefits), Desire (proof/emotional appeal), Action (clear CTA). Classic formula that converts for all content types.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">6</span> Focus on Benefits, Not Features</div>
+                        <div class="step-desc">Feature: "24/7 customer support". Benefit: "Get answers instantly, any time your team needs help". Always answer "So what?" for the reader.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">7</span> Write in Active Voice</div>
+                        <div class="step-desc">Active: "Our team delivers results". Passive: "Results are delivered by our team". Active voice is stronger, clearer, more engaging.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">8</span> Keep Sentences Short & Clear</div>
+                        <div class="step-desc">Aim for 15-20 words per sentence. Mix short and medium length. One idea per sentence. Cut unnecessary words. Simple beats complex.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">9</span> Use Power Words</div>
+                        <div class="step-desc">Emotional triggers: Exclusive, Limited, Proven, Guaranteed, Transform, Discover, Secret, Revolutionary. Sparingly - don't oversell.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">10</span> Create Scannable Content</div>
+                        <div class="step-desc">Use subheadings every 200-300 words. Bullet points for lists. Bold key phrases. Short paragraphs (3-4 lines). White space improves readability.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">11</span> Tell Stories</div>
+                        <div class="step-desc">People remember stories 22x more than facts. Share customer success stories. Use before/after narratives. Create emotional connection.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">12</span> Address Objections</div>
+                        <div class="step-desc">Anticipate: "Too expensive", "Takes too long", "Won't work for us". Counter with proof: testimonials, case studies, money-back guarantee.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">13</span> Use Social Proof</div>
+                        <div class="step-desc">Include: client logos, testimonials, case studies, statistics ("Join 10,000+ businesses"), awards, expert endorsements. Builds credibility.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">14</span> Create Urgency & Scarcity</div>
+                        <div class="step-desc">Limited time offers, countdown timers, "Only 5 spots left", seasonal promotions. Ethical scarcity drives action. Don't fake it.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">15</span> Write Strong CTAs</div>
+                        <div class="step-desc">Be specific: "Download Free Guide" not "Click Here". Use action verbs. Create urgency: "Start Your Free Trial Today". Make it stand out visually.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">16</span> Optimize for SEO</div>
+                        <div class="step-desc">Include target keyword in: title, first paragraph, H2s, naturally throughout. LSI keywords. But write for humans first, search engines second.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">17</span> Use The "You" Perspective</div>
+                        <div class="step-desc">Write to one person: "You'll gain access" not "Users will gain". Makes copy personal and engaging. Talk to your reader directly.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">18</span> Edit Ruthlessly</div>
+                        <div class="step-desc">First draft is never final. Cut 20-30% of words. Remove jargon, redundancy, filler words (very, really, just). Read aloud to catch issues.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">19</span> Use Grammarly & Hemingway</div>
+                        <div class="step-desc">Grammarly for grammar/spelling. Hemingway for readability (aim for grade 8-10). ProWritingAid for style. Tools help, but use judgment.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">20</span> A/B Test Your Copy</div>
+                        <div class="step-desc">Test headlines, CTAs, opening paragraphs. What resonates with your audience? Use data to improve. Small changes can boost conversions 20-50%.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">21</span> Match Tone to Platform</div>
+                        <div class="step-desc">LinkedIn: Professional, authoritative. Twitter: Conversational, witty. Email: Friendly, helpful. Website: Clear, persuasive. Adapt accordingly.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">22</span> Build a Swipe File</div>
+                        <div class="step-desc">Save great headlines, emails, ads you encounter. Organize by type. Study why they work. Adapt (don't copy) for your own writing.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">23</span> Use Formatting for Emphasis</div>
+                        <div class="step-desc">**Bold** for important points. *Italics* for emphasis. CAPS for urgency (sparingly). Underline for links only. Guide reader's eye strategically.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">24</span> Write Conversationally</div>
+                        <div class="step-desc">Use contractions (you'll, we're). Ask questions. Sentence fragments are okay. Sound human, not robotic. Imagine talking to a colleague.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">25</span> Practice Daily</div>
+                        <div class="step-desc">Write 500 words daily. Copy great ads by hand. Read widely. Study copywriting books: "Breakthrough Advertising", "The Adweek Copywriting Handbook".</div>
+                    </div>
+                </div>
+                
+                <div class="section">
+                    <h2><span class="icon">📝</span> Content Types & Formulas</h2>
+                    
+                    <div class="step">
+                        <div class="step-title">Blog Posts: Problem-Agitate-Solve (PAS)</div>
+                        <div class="step-desc">Identify problem → Make it worse (agitate) → Present your solution. Works for educational B2B content.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title">Landing Pages: Star-Story-Solution</div>
+                        <div class="step-desc">Hero section (star) → Customer journey (story) → Your product (solution) → Proof → CTA.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title">Email Sequences: PASTOR Framework</div>
+                        <div class="step-desc">Problem → Amplify → Story → Transformation → Offer → Response. Great for nurture campaigns.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title">Social Media: Hook-Value-CTA</div>
+                        <div class="step-desc">Grab attention (first line) → Deliver value (body) → Clear next step (CTA). Keep concise.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title">Product Descriptions: Feature-Advantage-Benefit (FAB)</div>
+                        <div class="step-desc">What it is → What it does → Why it matters. Always end with emotional benefit for the customer.</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Graphic Design Guide -->
+            <div id="design" class="tab-content">
+                <div class="section">
+                    <h2><span class="icon">🎨</span> Graphic Design Basics Guide</h2>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">1</span> Master Design Fundamentals</div>
+                        <div class="step-desc">Learn: Balance, Contrast, Hierarchy, Alignment, Proximity, Repetition, White Space. These principles apply to ALL design work.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">2</span> Understand Color Theory</div>
+                        <div class="step-desc">Color wheel basics: Primary (Red, Blue, Yellow), Secondary, Tertiary. Complementary colors (opposite on wheel) create contrast. Analogous (next to each other) create harmony.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">3</span> Create Color Palettes</div>
+                        <div class="step-desc">Use 60-30-10 rule: 60% dominant color, 30% secondary, 10% accent. Tools: Coolors.co, Adobe Color, ColorHunt. B2B: blues (trust), grays (professional).</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">4</span> Learn Typography Basics</div>
+                        <div class="step-desc">Serif (traditional, formal), Sans-serif (modern, clean), Script (elegant, decorative). Never use more than 2-3 fonts. Pair serif with sans-serif.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">5</span> Establish Font Hierarchy</div>
+                        <div class="step-desc">H1 (largest, 32-48pt), H2 (24-32pt), Body (14-16pt), Caption (12-14pt). Use size, weight, color to create clear hierarchy. Guide viewer's eye.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">6</span> Use The Rule of Thirds</div>
+                        <div class="step-desc">Divide design into 3x3 grid. Place key elements on intersection points. Creates visual interest and balance. Turn on grid in Canva.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">7</span> Master White Space (Negative Space)</div>
+                        <div class="step-desc">Empty space is NOT wasted space. Gives design room to breathe. Improves readability. Looks professional. Less is more in B2B design.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">8</span> Create Visual Hierarchy</div>
+                        <div class="step-desc">Most important element = largest/boldest. Use size, color, contrast, position. Guide viewer from headline → body → CTA in that order.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">9</span> Maintain Consistency</div>
+                        <div class="step-desc">Use same fonts, colors, spacing throughout all materials. Save as brand template. Consistency = professionalism and brand recognition.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">10</span> Align Everything</div>
+                        <div class="step-desc">Left-align for readability. Center-align for headlines/formal designs. Never mix alignments randomly. Use Canva's alignment tools and rulers.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">11</span> Choose Quality Images</div>
+                        <div class="step-desc">High-resolution only (min 1920x1080 for web). Sources: Unsplash, Pexels (free), Shutterstock (paid). Avoid obvious stock photos. Use authentic imagery.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">12</span> Optimize Image Formats</div>
+                        <div class="step-desc">PNG for logos/transparency, JPG for photos, SVG for icons/scalable graphics, GIF for simple animations. Compress before uploading (TinyPNG).</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">13</span> Use Contrast Effectively</div>
+                        <div class="step-desc">Dark text on light background (or vice versa). Ensure readability. Check contrast ratio (min 4.5:1 for accessibility). Use WebAIM Contrast Checker.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">14</span> Design for Readability</div>
+                        <div class="step-desc">Line length: 50-75 characters. Line height: 1.5x font size. Left-aligned text. Sufficient margins. Break up text with visuals.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">15</span> Create Balanced Compositions</div>
+                        <div class="step-desc">Symmetrical (formal, stable) or Asymmetrical (dynamic, modern). Distribute visual weight evenly. Avoid cramming everything to one side.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">16</span> Use Icons & Illustrations</div>
+                        <div class="step-desc">Simplify complex ideas. Make content scannable. Sources: Flaticon, Icons8, Canva elements. Keep style consistent (all line or all filled).</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">17</span> Design Responsive for Mobile</div>
+                        <div class="step-desc">60% view on mobile. Larger fonts (min 16pt), bigger buttons (44x44px min), vertical layouts. Test on actual devices.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">18</span> Master Canva Advanced Features</div>
+                        <div class="step-desc">Brand Kit, Magic Resize, Background Remover, Photo effects, Animations, Templates. Use keyboard shortcuts. Duplicate & modify saves time.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">19</span> Apply Design Psychology</div>
+                        <div class="step-desc">Red = urgency/energy, Blue = trust/calm, Green = growth/health, Yellow = optimism/caution, Black = luxury/power. Choose colors strategically.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">20</span> Use Grids & Guides</div>
+                        <div class="step-desc">Enable grid in Canva (View → Show rulers). 12-column grid for layouts. Ensures alignment and professional look. Snap to grid.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">21</span> Design Call-to-Action Buttons</div>
+                        <div class="step-desc">Contrasting color, rounded corners, sufficient padding, clear text. Size: stand out but not overwhelming. Add subtle shadow or hover effect.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">22</span> Create Data Visualizations</div>
+                        <div class="step-desc">Bar charts (comparisons), Line graphs (trends), Pie charts (proportions), Infographics (complex data). Keep simple. Label clearly. Use brand colors.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">23</span> Design Social Media Graphics</div>
+                        <div class="step-desc">Sizes: Instagram 1080x1080, LinkedIn 1200x627, Twitter 1200x675, Stories 1080x1920. Bold text, high contrast. Eye-catching but on-brand.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">24</span> Get Feedback Before Finalizing</div>
+                        <div class="step-desc">Share with colleagues. Ask: Is message clear? Does it look professional? Any typos? Fresh eyes catch issues you miss.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">25</span> Study Great Designs</div>
+                        <div class="step-desc">Follow: Dribbble, Behance, Pinterest. Save inspiration. Analyze WHY designs work. Learn from competitors and industry leaders.</div>
+                    </div>
+                </div>
+                
+                <div class="section">
+                    <h2><span class="icon">🛠️</span> Essential Canva Techniques</h2>
+                    
+                    <div class="step">
+                        <div class="step-title">Shortcut: Duplicate Elements</div>
+                        <div class="step-desc">Hold Alt/Option + Drag. Creates instant copy. Saves time when repeating elements. Use for consistent spacing.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title">Shortcut: Group Elements</div>
+                        <div class="step-desc">Select multiple → Ctrl/Cmd + G. Move as one unit. Ungroup with Ctrl/Cmd + Shift + G. Essential for complex designs.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title">Feature: Magic Resize</div>
+                        <div class="step-desc">Resize to any platform instantly. Design once → resize to Instagram, LinkedIn, Twitter, Stories. Canva Pro feature.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title">Feature: Background Remover</div>
+                        <div class="step-desc">Click image → Edit → Background Remover. Perfect for product photos, headshots. Creates transparent PNG.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title">Feature: Brand Kit</div>
+                        <div class="step-desc">Upload logos, set brand colors, add fonts. Access from any design. One-click apply. Ensures consistency across all materials.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title">Feature: Animate</div>
+                        <div class="step-desc">Select element → Animate. Choose: Rise, Pan, Fade, Breathe. Keep subtle for professional look. Great for social media.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title">Technique: Layer Management</div>
+                        <div class="step-desc">Right-click → Layer options. Send to back, bring forward. Lock elements. Rename layers. Keeps complex designs organized.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title">Technique: Color Extraction</div>
+                        <div class="step-desc">Upload photo → Click color picker → Eyedropper from image. Extract colors from photos for cohesive palette.</div>
+                    </div>
+                </div>
+                
+                <div class="section">
+                    <h2><span class="icon">⚠️</span> Common Design Mistakes to Avoid</h2>
+                    
+                    <div class="step">
+                        <div class="step-title">❌ Too Many Fonts</div>
+                        <div class="step-desc">Stick to 2-3 max. More looks unprofessional and chaotic. Choose complementary fonts and be consistent.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title">❌ Poor Contrast</div>
+                        <div class="step-desc">Light gray text on white = unreadable. Always check accessibility. Test on different screens.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title">❌ Stretching Images</div>
+                        <div class="step-desc">Makes images look distorted. Always hold Shift when resizing to maintain proportions. Use crop instead.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title">❌ Overcrowding</div>
+                        <div class="step-desc">Cramming too much info. Embrace white space. One key message per design. Less is more.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title">❌ Inconsistent Branding</div>
+                        <div class="step-desc">Different colors/fonts each post. Creates confusion. Use brand kit. Maintain visual identity.</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Content Calendar & Planning Guide -->
+            <div id="calendar" class="tab-content">
+                <div class="section">
+                    <h2><span class="icon">📅</span> Content Calendar & Planning Guide</h2>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">1</span> Choose Your Calendar Tool</div>
+                        <div class="step-desc">Options: Google Sheets (free, collaborative), Notion (organized), Trello (visual), Asana (task-focused), CoSchedule (premium). Start simple with Google Sheets.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">2</span> Set Content Goals & KPIs</div>
+                        <div class="step-desc">Define: Brand awareness, lead generation, engagement, website traffic, conversions. Set measurable targets: "50 LinkedIn posts/month, 20% engagement rate".</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">3</span> Identify Key Dates & Events</div>
+                        <div class="step-desc">Mark: Industry conferences, product launches, holidays, sales periods, webinars, company milestones. Plan content around these dates.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">4</span> Define Content Pillars</div>
+                        <div class="step-desc">Choose 4-6 recurring themes aligned with business goals: Thought leadership, Product updates, Customer stories, Industry insights, How-tos, Company culture.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">5</span> Create Content Types Mix</div>
+                        <div class="step-desc">Balance: Blog posts (20%), Social media (40%), Email (15%), Videos (15%), Infographics (10%). Adapt based on what performs best.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">6</span> Set Up Calendar Structure</div>
+                        <div class="step-desc">Columns: Date, Platform, Content Type, Topic/Title, Status, Assigned To, Due Date, Published Link, Notes. Color-code by content pillar or platform.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">7</span> Plan 2-4 Weeks in Advance</div>
+                        <div class="step-desc">Weekly planning = stressful. Monthly planning = flexible. Sweet spot: 2-3 weeks ahead. Allows time for creation, approval, and adjustments.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">8</span> Batch Content Creation</div>
+                        <div class="step-desc">Dedicate days: Monday (planning), Tuesday (writing), Wednesday (design), Thursday (scheduling), Friday (engagement). Work in themed batches for efficiency.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">9</span> Research Trending Topics</div>
+                        <div class="step-desc">Use: Google Trends, LinkedIn trending, Twitter trends, BuzzSumo, industry news. Plan timely content around relevant trends. Stay current.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">10</span> Map Content to Buyer Journey</div>
+                        <div class="step-desc">Awareness (educational blogs, social posts), Consideration (case studies, comparisons), Decision (demos, testimonials). Balance content for all stages.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">11</span> Schedule Optimal Posting Times</div>
+                        <div class="step-desc">LinkedIn: Tue-Thu 10am-12pm. Email: Tue-Thu 10am. Blog: Monday mornings. Test and track what works for YOUR audience specifically.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">12</span> Create Content Workflows</div>
+                        <div class="step-desc">Status stages: Idea → Draft → Review → Approved → Scheduled → Published. Assign owners. Set deadlines. Track progress weekly.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">13</span> Build Content Inventory</div>
+                        <div class="step-desc">Create library of evergreen content: how-to guides, FAQs, tips. Repurpose and reshare when needed. Saves time during busy periods.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">14</span> Plan Cross-Channel Campaigns</div>
+                        <div class="step-desc">Launch campaign: Blog post → LinkedIn posts (3) → Email → Twitter thread → Video. One topic, multiple formats, maximum reach.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">15</span> Use Content Themes</div>
+                        <div class="step-desc">Week 1: Product focus. Week 2: Customer stories. Week 3: Industry insights. Week 4: Team/culture. Creates rhythm and variety.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">16</span> Schedule Seasonal Content</div>
+                        <div class="step-desc">Q1: New year planning, tax season. Q2: Mid-year reviews. Q3: Back to business. Q4: Year-end, holidays. Plan 6-8 weeks ahead for seasonal.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">17</span> Repurpose High-Performing Content</div>
+                        <div class="step-desc">Best blog → Infographic → LinkedIn carousel → Email newsletter → Video script. Get 5-10 pieces from one great content piece.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">18</span> Hold Weekly Planning Meetings</div>
+                        <div class="step-desc">30-min meeting: Review last week's performance, adjust upcoming content, brainstorm ideas, assign tasks. Keep team aligned.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">19</span> Leave Buffer Space</div>
+                        <div class="step-desc">Don't fill 100% of calendar. Leave 20% open for: trending topics, urgent announcements, user-generated content, spontaneous opportunities.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">20</span> Track Content Performance</div>
+                        <div class="step-desc">Add columns: Views, Engagement, Clicks, Conversions. Color-code winners (green) and underperformers (red). Learn patterns.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">21</span> Set Content Approval Process</div>
+                        <div class="step-desc">Define who approves: Marketing manager for social, Legal for sensitive topics. Set turnaround time (24-48 hours). Avoid bottlenecks.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">22</span> Use Templates for Speed</div>
+                        <div class="step-desc">Create: Social post templates, blog outlines, email formats. Saves 30-50% creation time. Maintains consistency. Customize per topic.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">23</span> Plan User-Generated Content</div>
+                        <div class="step-desc">Schedule slots for: Customer testimonials, case studies, employee spotlights. Builds community. More authentic than brand content.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">24</span> Review & Optimize Monthly</div>
+                        <div class="step-desc">Monthly audit: What worked? What flopped? Posting frequency optimal? Adjust strategy. Update calendar template based on learnings.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">25</span> Automate Where Possible</div>
+                        <div class="step-desc">Use scheduling tools: Buffer, Hootsuite, Later. Set up RSS for blog auto-posts. Zapier for workflow automation. Focus on creative, automate admin.</div>
+                    </div>
+                </div>
+                
+                <div class="section">
+                    <h2><span class="icon">📋</span> Content Calendar Template Structure</h2>
+                    
+                    <div class="step">
+                        <div class="step-title">Column 1: Date & Time</div>
+                        <div class="step-desc">Exact publish date and time. Account for time zones. Schedule during peak audience activity hours.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title">Column 2: Platform/Channel</div>
+                        <div class="step-desc">LinkedIn, Blog, Email, Twitter, Instagram, YouTube. Color-code each platform for quick visual scanning.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title">Column 3: Content Type</div>
+                        <div class="step-desc">Article, Video, Infographic, Carousel, Poll, Story, Case Study. Helps track content variety and balance.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title">Column 4: Content Pillar/Theme</div>
+                        <div class="step-desc">Which pillar does it support? Thought leadership, Product, Customer story. Ensures balanced coverage.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title">Column 5: Topic/Headline</div>
+                        <div class="step-desc">Working title or final headline. Be specific enough that anyone can understand the content at a glance.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title">Column 6: Target Audience</div>
+                        <div class="step-desc">C-suite, Mid-managers, Specific industry. Ensures content speaks to right people. Helps with targeting.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title">Column 7: Status</div>
+                        <div class="step-desc">Idea, Drafting, Review, Approved, Scheduled, Published. Track progress. Identify bottlenecks quickly.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title">Column 8: Assigned To</div>
+                        <div class="step-desc">Who's responsible? Writer, designer, video editor. Clear ownership prevents tasks from falling through cracks.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title">Column 9: Due Date</div>
+                        <div class="step-desc">When must it be ready? Build in buffer before publish date. Allows time for reviews and revisions.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title">Column 10: Performance Metrics</div>
+                        <div class="step-desc">After publishing: add views, engagement rate, clicks, conversions. Track what works. Inform future planning.</div>
+                    </div>
+                </div>
+                
+                <div class="section">
+                    <h2><span class="icon">💡</span> Content Planning Best Practices</h2>
+                    
+                    <div class="step">
+                        <div class="step-title">✅ Follow the 80/20 Rule</div>
+                        <div class="step-desc">80% educational/valuable content, 20% promotional. Avoid over-selling. Provide value first, sell second.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title">✅ Plan for Flexibility</div>
+                        <div class="step-desc">Breaking news happens. Trends emerge. Leave 20% calendar open for timely content. Don't be too rigid.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title">✅ Align with Business Goals</div>
+                        <div class="step-desc">Every content piece should support: brand awareness, lead gen, sales, or retention. No vanity content.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title">✅ Quality Over Quantity</div>
+                        <div class="step-desc">3 great posts/week beats 7 mediocre ones. Focus on creating valuable content, not just filling calendar.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title">✅ Document Everything</div>
+                        <div class="step-desc">Templates, processes, approval workflows, performance benchmarks. Makes onboarding new team members easy.</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Marketing Strategy & Planning Guide -->
+            <div id="strategy" class="tab-content">
+                <div class="section">
+                    <h2><span class="icon">🎯</span> Marketing Strategy & Planning Guide</h2>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">1</span> Conduct Situation Analysis</div>
+                        <div class="step-desc">Analyze current state: market position, brand perception, past performance, resources. Use SWOT: Strengths, Weaknesses, Opportunities, Threats.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">2</span> Define Clear Marketing Objectives</div>
+                        <div class="step-desc">Use SMART goals: Specific, Measurable, Achievable, Relevant, Time-bound. Example: "Generate 500 qualified B2B leads by Q2 2026".</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">3</span> Identify Target Audience</div>
+                        <div class="step-desc">Create detailed buyer personas: demographics, job titles, pain points, goals, buying behavior. B2B: focus on decision-makers and influencers.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">4</span> Research Your Market</div>
+                        <div class="step-desc">Industry trends, market size, growth rate, regulations, customer needs. Use: industry reports, surveys, customer interviews, LinkedIn insights.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">5</span> Analyze Competitors</div>
+                        <div class="step-desc">Identify top 5 competitors. Study: positioning, messaging, channels, content, pricing, strengths/weaknesses. Find gaps you can exploit.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">6</span> Define Unique Value Proposition (UVP)</div>
+                        <div class="step-desc">What makes you different? Why should customers choose you? Be specific. "We help X achieve Y without Z". Clear, compelling, unique.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">7</span> Develop Brand Positioning</div>
+                        <div class="step-desc">How do you want to be perceived? Premium vs affordable, innovative vs reliable, enterprise vs SMB-focused. Align with target audience needs.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">8</span> Map Customer Journey</div>
+                        <div class="step-desc">Awareness → Consideration → Decision → Retention → Advocacy. Identify touchpoints, pain points, content needs at each stage.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">9</span> Choose Marketing Channels</div>
+                        <div class="step-desc">B2B priorities: LinkedIn, Email, SEO, Content Marketing, Webinars, Events. Select based on where your audience is most active.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">10</span> Set Marketing Budget</div>
+                        <div class="step-desc">Allocate: Paid ads (30%), Content creation (25%), Tools/software (20%), Events (15%), Other (10%). Adjust based on what drives ROI.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">11</span> Create Campaign Strategy</div>
+                        <div class="step-desc">Plan integrated campaigns: Theme, messaging, channels, timeline, budget, KPIs. Coordinate across all touchpoints for consistency.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">12</span> Develop Content Strategy</div>
+                        <div class="step-desc">Content pillars, formats, frequency, distribution. Balance: Educational (60%), Inspirational (20%), Promotional (20%). Quality over quantity.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">13</span> Plan Lead Generation Tactics</div>
+                        <div class="step-desc">Gated content (ebooks, whitepapers), webinars, free trials, demos, contact forms, LinkedIn lead gen ads. Multiple entry points.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">14</span> Build Lead Nurturing Funnel</div>
+                        <div class="step-desc">Email sequences, retargeting ads, personalized content. Move leads from awareness → decision. Track at each stage.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">15</span> Define Key Performance Indicators (KPIs)</div>
+                        <div class="step-desc">Lead metrics: Traffic, Leads, MQLs, SQLs. Lag metrics: Revenue, Customer acquisition cost, Lifetime value, ROI. Track both.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">16</span> Create Marketing Calendar</div>
+                        <div class="step-desc">Annual plan with quarterly milestones. Include: campaigns, events, content themes, product launches. Review and adjust quarterly.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">17</span> Align Sales & Marketing</div>
+                        <div class="step-desc">Define MQL criteria, lead handoff process, shared goals. Regular meetings between teams. Use CRM for visibility. SLA agreements.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">18</span> Plan Account-Based Marketing (ABM)</div>
+                        <div class="step-desc">For enterprise: identify target accounts, personalized campaigns, multi-touch approach. Coordinate sales + marketing efforts on key accounts.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">19</span> Develop Thought Leadership Strategy</div>
+                        <div class="step-desc">Position executives as industry experts. LinkedIn articles, speaking engagements, podcast interviews, original research, media mentions.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">20</span> Plan Partnership & Collaboration</div>
+                        <div class="step-desc">Co-marketing with complementary brands, industry associations, influencer partnerships. Expand reach, share resources, build credibility.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">21</span> Set Testing & Optimization Plan</div>
+                        <div class="step-desc">A/B test: headlines, CTAs, landing pages, email subject lines, ad copy. Test one variable at a time. Document learnings.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">22</span> Build Marketing Technology Stack</div>
+                        <div class="step-desc">Essential tools: CRM (HubSpot/Salesforce), Email (Mailchimp), Analytics (Google Analytics), Social (Buffer), Design (Canva). Integrate systems.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">23</span> Create Crisis Communication Plan</div>
+                        <div class="step-desc">Prepare for: negative reviews, PR issues, product failures. Response protocols, approval chains, holding statements. Hope for best, plan for worst.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">24</span> Establish Reporting Cadence</div>
+                        <div class="step-desc">Weekly dashboards, monthly reports, quarterly reviews. Track against goals. Share with stakeholders. Transparent about wins and challenges.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">25</span> Review & Iterate Strategy</div>
+                        <div class="step-desc">Quarterly strategy reviews. What's working? What's not? Market changes? Adjust tactics, reallocate budget, pivot if needed. Stay agile.</div>
+                    </div>
+                </div>
+                
+                <div class="section">
+                    <h2><span class="icon">📊</span> Strategic Frameworks to Use</h2>
+                    
+                    <div class="step">
+                        <div class="step-title">SWOT Analysis</div>
+                        <div class="step-desc">Strengths (internal advantages), Weaknesses (internal limitations), Opportunities (external possibilities), Threats (external risks). Foundation for strategy.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title">PEST Analysis</div>
+                        <div class="step-desc">Political, Economic, Social, Technological factors affecting your market. Identify macro trends and prepare for changes.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title">Porter's Five Forces</div>
+                        <div class="step-desc">Competitive rivalry, Supplier power, Buyer power, Threat of substitutes, Threat of new entrants. Understand competitive landscape.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title">Marketing Mix (4Ps)</div>
+                        <div class="step-desc">Product (what you sell), Price (how much), Place (where/how distributed), Promotion (how you communicate). Classic but effective.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title">AIDA Model</div>
+                        <div class="step-desc">Awareness → Interest → Desire → Action. Map content and campaigns to each stage. Guide prospects through journey.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title">Ansoff Matrix</div>
+                        <div class="step-desc">Growth strategies: Market penetration, Product development, Market development, Diversification. Choose based on risk tolerance.</div>
+                    </div>
+                </div>
+                
+                <div class="section">
+                    <h2><span class="icon">🎯</span> B2B Marketing Strategy Essentials</h2>
+                    
+                    <div class="step">
+                        <div class="step-title">Focus on Relationship Building</div>
+                        <div class="step-desc">B2B sales cycles are longer (3-12 months). Nurture relationships. Provide value consistently. Build trust over time.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title">Target Decision-Making Units (DMUs)</div>
+                        <div class="step-desc">Multiple stakeholders involved: Users, Influencers, Decision-makers, Gatekeepers. Create content for each role.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title">Emphasize ROI & Business Value</div>
+                        <div class="step-desc">B2B buyers want numbers: time saved, cost reduced, revenue increased. Lead with business outcomes, not features.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title">Leverage Social Proof</div>
+                        <div class="step-desc">Case studies, client logos, testimonials, industry awards. B2B buyers research extensively. Make proof easy to find.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title">Invest in Education</div>
+                        <div class="step-desc">Webinars, whitepapers, guides, workshops. Position as trusted advisor. Help them solve problems, even before they buy.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title">Prioritize Quality Leads Over Quantity</div>
+                        <div class="step-desc">100 qualified leads > 1000 unqualified. Use lead scoring. Focus on ideal customer profile (ICP). Sales will thank you.</div>
+                    </div>
+                </div>
+                
+                <div class="section">
+                    <h2><span class="icon">📈</span> Measuring Strategy Success</h2>
+                    
+                    <div class="step">
+                        <div class="step-title">Track Leading Indicators</div>
+                        <div class="step-desc">Website traffic, content downloads, email signups, engagement rate. These predict future success. Monitor weekly.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title">Monitor Lagging Indicators</div>
+                        <div class="step-desc">Revenue, customer acquisition, market share, customer lifetime value. These show actual results. Review monthly/quarterly.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title">Calculate Marketing ROI</div>
+                        <div class="step-desc">ROI = (Revenue from marketing - Marketing cost) / Marketing cost × 100. Benchmark: good B2B marketing ROI is 5:1 or higher.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title">Measure Customer Acquisition Cost (CAC)</div>
+                        <div class="step-desc">CAC = Total marketing + sales costs / Number of new customers. Track trend. Lower is better, but not at expense of quality.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title">Track Pipeline Contribution</div>
+                        <div class="step-desc">How much pipeline did marketing generate? What % closed? Which campaigns drove highest-value opportunities? Attribution matters.</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Client Communication Guide -->
+            <div id="client" class="tab-content">
+                <div class="section">
+                    <h2><span class="icon">💬</span> Client Communication Guide</h2>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">1</span> Set Clear Communication Expectations</div>
+                        <div class="step-desc">Define upfront: response time (24 hours), preferred channels (email/Slack), meeting frequency (weekly/bi-weekly), availability hours.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">2</span> Create Communication Protocol</div>
+                        <div class="step-desc">Urgent issues: phone/Slack. Updates: email. Reviews: scheduled meetings. Keep boundaries clear. Document in onboarding doc.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">3</span> Master Professional Email Etiquette</div>
+                        <div class="step-desc">Clear subject lines, professional greeting, concise body, action items bolded, professional signature. Proofread always. No typos.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">4</span> Respond Promptly</div>
+                        <div class="step-desc">Acknowledge within 24 hours, even if full answer takes longer. "Got it, looking into this and will update you by Friday" builds trust.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">5</span> Practice Active Listening</div>
+                        <div class="step-desc">In meetings: take notes, ask clarifying questions, summarize what you heard. "Just to confirm, you need X by Y, correct?" Avoid assumptions.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">6</span> Provide Regular Updates</div>
+                        <div class="step-desc">Don't wait to be asked. Weekly status emails: what's done, what's in progress, what's next, any blockers. Proactive > reactive.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">7</span> Use Clear, Jargon-Free Language</div>
+                        <div class="step-desc">Not everyone knows marketing terms. Explain: "CTR (click-through rate)" or avoid jargon entirely. Clarity beats sounding smart.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">8</span> Prepare for Client Meetings</div>
+                        <div class="step-desc">Agenda sent 24hrs ahead. Review previous notes. Bring updates and data. Have questions ready. Show you value their time.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">9</span> Document Everything</div>
+                        <div class="step-desc">Meeting notes, action items, decisions made, feedback given. Share notes within 24hrs. Creates accountability and prevents "I never said that".</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">10</span> Handle Feedback Professionally</div>
+                        <div class="step-desc">Don't get defensive. Thank them for input. Ask clarifying questions. "I understand. Let me revise and send by tomorrow." Stay solution-focused.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">11</span> Manage Expectations Realistically</div>
+                        <div class="step-desc">Under-promise, over-deliver. If timeline is tight, say so. "This will take 5 days" not "I'll try to rush it". Set realistic deadlines.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">12</span> Present Data Clearly</div>
+                        <div class="step-desc">Use visuals: charts, graphs, dashboards. Highlight key insights. Start with summary, then details. Make it easy to digest. Tell a story with data.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">13</span> Handle Difficult Conversations</div>
+                        <div class="step-desc">Be direct but tactful. State facts, not blame. "Campaign underperformed due to X. Here's how we'll fix it." Solution-oriented approach.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">14</span> Ask the Right Questions</div>
+                        <div class="step-desc">Clarify objectives: "What does success look like?" Understand priorities: "If we can only do one, which matters most?" Dig deeper than surface requests.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">15</span> Provide Solutions, Not Just Problems</div>
+                        <div class="step-desc">Don't say "This won't work". Say "This approach has challenges. Here are 2 alternatives I recommend". Always bring options.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">16</span> Be Transparent About Challenges</div>
+                        <div class="step-desc">Don't hide issues until it's too late. Early warning: "Hitting a snag with X, working on solution, may need 2 extra days." Honesty builds trust.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">17</span> Tailor Communication Style</div>
+                        <div class="step-desc">Some clients want details, others want summaries. Some prefer calls, others email. Adapt to their preference. Mirror their communication style.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">18</span> Create Professional Reports</div>
+                        <div class="step-desc">Executive summary first, detailed metrics after. Visual hierarchy. Brand it. Make it skimmable. Include next steps and recommendations.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">19</span> Follow Up on Action Items</div>
+                        <div class="step-desc">After meetings, send recap with action items, owners, deadlines. Follow up before deadlines. Close the loop when complete. Show accountability.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">20</span> Handle Scope Creep Tactfully</div>
+                        <div class="step-desc">"That's a great idea. This would be additional to our current scope. Happy to quote it separately." Protect your time while being helpful.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">21</span> Celebrate Wins Together</div>
+                        <div class="step-desc">When campaign succeeds, share the win. "Great results on the LinkedIn campaign! Your input on messaging made the difference." Build partnership.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">22</span> Use Video Calls Effectively</div>
+                        <div class="step-desc">Test tech beforehand. Good lighting and background. Camera on. Mute when not speaking. Engaged body language. Be present.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">23</span> Build Rapport Beyond Work</div>
+                        <div class="step-desc">Small talk at meeting starts. Remember personal details they share. Ask about their weekend. Be human, not just transactional.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">24</span> Know When to Escalate</div>
+                        <div class="step-desc">Can't meet deadline, major issue, client unhappy, scope significantly changing. Loop in manager early. Don't handle alone.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title"><span class="step-number">25</span> End Projects Professionally</div>
+                        <div class="step-desc">Final report, lessons learned, smooth handoff. Ask for testimonial/referral. Express gratitude. Leave door open for future work.</div>
+                    </div>
+                </div>
+                
+                <div class="section">
+                    <h2><span class="icon">📧</span> Email Templates</h2>
+                    
+                    <div class="step">
+                        <div class="step-title">Weekly Update Email</div>
+                        <div class="step-desc">Subject: Weekly Update - [Week of Date]. Body: Completed, In Progress, Next Week, Blockers/Questions. Keep concise, bullet points.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title">Delay Notification Email</div>
+                        <div class="step-desc">Subject: Timeline Update - [Project]. Body: Acknowledge delay, explain reason briefly, new deadline, how you're preventing future delays.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title">Meeting Request Email</div>
+                        <div class="step-desc">Subject: Meeting Request - [Topic]. Body: Purpose, suggested times (3 options), duration, agenda, preparation needed. Calendar invite attached.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title">Clarification Request Email</div>
+                        <div class="step-desc">Subject: Quick Question on [Topic]. Body: Context, specific question, why you need to know, when you need answer by. Make it easy to respond.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title">Deliverable Submission Email</div>
+                        <div class="step-desc">Subject: [Deliverable Name] - Ready for Review. Body: Brief overview, what to review, deadline for feedback, how to access. Link prominently.</div>
+                    </div>
+                </div>
+                
+                <div class="section">
+                    <h2><span class="icon">⚠️</span> Common Communication Mistakes to Avoid</h2>
+                    
+                    <div class="step">
+                        <div class="step-title">❌ Assuming Instead of Asking</div>
+                        <div class="step-desc">"I think they want X" - wrong. Ask: "To clarify, do you want X or Y?" Assumptions lead to wasted work and frustration.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title">❌ Going Silent on Issues</div>
+                        <div class="step-desc">Hoping problem fixes itself. It won't. Communicate early. Clients hate surprises more than they hate problems.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title">❌ Using "We'll Try" Language</div>
+                        <div class="step-desc">Sounds weak and uncommitted. Use "We will" or be honest: "That timeline is challenging, here's what's realistic."</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title">❌ Overpromising to Please</div>
+                        <div class="step-desc">"Sure, I can do that by tomorrow!" when it takes 3 days. Sets up failure. Better to negotiate realistic timeline upfront.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title">❌ Writing Novels in Emails</div>
+                        <div class="step-desc">Keep emails scannable. Use bullets. Put ask at top. TL;DR at beginning if long. Respect their time.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title">❌ Being Defensive</div>
+                        <div class="step-desc">Feedback isn't personal attack. "You're right, let me fix that" beats "Well, you said..." Stay professional and solution-focused.</div>
+                    </div>
+                </div>
+                
+                <div class="section">
+                    <h2><span class="icon">✅</span> Communication Best Practices</h2>
+                    
+                    <div class="step">
+                        <div class="step-title">✅ The 24-Hour Rule</div>
+                        <div class="step-desc">Respond to all messages within 24 hours, even if just to say "Got it, will get back to you by [date]".</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title">✅ The Friday Update</div>
+                        <div class="step-desc">Send quick Friday summary: week's wins, next week's plan. Sets expectations for Monday. Shows you're organized.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title">✅ The "Just to Confirm" Technique</div>
+                        <div class="step-desc">After verbal agreements: "Just to confirm in writing: you need X by Y, budget is Z. Correct?" Creates clarity and paper trail.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title">✅ The Proactive Problem-Solve</div>
+                        <div class="step-desc">Don't just report problems. "Issue X happened. I've done A and B. Recommend we do C. Your thoughts?" Show initiative.</div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-title">✅ The Meeting Recap</div>
+                        <div class="step-desc">Within 2 hours of meeting: send notes, action items, owners, deadlines. Everyone aligned. No "wait, what did we decide?"</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <footer>
+            <p>🎯 2026 Marketing Specialist Guide | Built for B2B Excellence</p>
+        </footer>
+    </div>
+    
+    <script>
+        function openTab(evt, tabName) {
+            const tabContents = document.getElementsByClassName('tab-content');
+            for (let i = 0; i < tabContents.length; i++) {
+                tabContents[i].classList.remove('active');
+            }
+            
+            const tabs = document.getElementsByClassName('tab');
+            for (let i = 0; i < tabs.length; i++) {
+                tabs[i].classList.remove('active');
+            }
+            
+            document.getElementById(tabName).classList.add('active');
+            evt.currentTarget.classList.add('active');
+        }
+    </script>
+</body>
+</html>
